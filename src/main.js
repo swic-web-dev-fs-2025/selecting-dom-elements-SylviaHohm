@@ -30,3 +30,4 @@ const priceElement = product.querySelector('.price');
 priceElement.textContent = '$24.99';
 // lab 2
 const title = document.querySelector('[data-title-id="1"]'); // Modified to use data attribute selector
+console.info(title);
