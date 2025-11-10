@@ -29,4 +29,4 @@ const product = document.querySelector('.card[data-product-id="2"]');
 const priceElement = product.querySelector('.price');
 priceElement.textContent = '$24.99';
 // lab 2
-const title = document.querySelector("main .card .card-title");
+const title = document.querySelector('[data-title-id="1"]'); // Modified to use data attribute selector
