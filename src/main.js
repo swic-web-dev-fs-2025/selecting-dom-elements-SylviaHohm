@@ -31,3 +31,12 @@ priceElement.textContent = '$24.99';
 // lab 2
 const title = document.querySelector('[data-title-id="1"]'); // Modified to use data attribute selector
 console.info(title);
+const button = document.querySelector('.btn');
+if (button) {
+  button.addEventListener("click", handleClick); // Added event listener for click event
+} else {
+  console.info("Button not found—check your selector");
+}
+function handleClick() {
+  console.info("Button clicked!");
+}
